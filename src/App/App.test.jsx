@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Enzyme, { shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import App from './App';
 
 function setup() {
