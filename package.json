@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
+    "react-color": "^2.14.1",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
@@ -23,9 +24,9 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "eject": "NODE_PATH=src/ react-scripts eject"
   }
 }

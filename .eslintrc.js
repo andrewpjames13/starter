@@ -24,5 +24,6 @@ module.exports =  {
     "jsx-a11y/label-has-for": [1],
     "react/jsx-boolean-value": [0],
     "react/no-array-index-key": [0]
+    "react/destructuring-assignment": [<enabled>, 'never']
   }
 }
